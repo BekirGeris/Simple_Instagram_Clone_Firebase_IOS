@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBYYEIsDLQ9jiQla8j9hqZmuCd0gHEtCpk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>785059892204</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.begers.FrebaseInstagramClone</string>
+	<key>PROJECT_ID</key>
+	<string>instagramcloneios-f14d4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>instagramcloneios-f14d4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:785059892204:ios:fc0ed1be3296d117cf4ec9</string>
+</dict>
+</plist>
