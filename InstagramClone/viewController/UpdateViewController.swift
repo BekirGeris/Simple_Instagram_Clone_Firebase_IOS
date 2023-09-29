@@ -10,6 +10,7 @@ import FirebaseCore
 import FirebaseStorage
 import FirebaseFirestore
 import FirebaseAuth
+import SDWebImage
 
 class UpdateViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
@@ -60,6 +61,7 @@ class UpdateViewController: UIViewController, UIImagePickerControllerDelegate, U
                             
                             let firestorePost = [
                                 "imageUrl" : imageUrl!,
+                                "likes" : 0,
                                 "postedBy" : Auth.auth().currentUser!.email!,
                                 "comment" : self.descriptionText.text!,
                                 "date" : FieldValue.serverTimestamp()
